@@ -22,21 +22,21 @@ public:
     // --------------------------------------------------
     // For capturing data
 
-    std::atomic<bool> nowCapturing {false}; // set this from main thread
+    //std::atomic<bool> nowCapturing {false}; // set this from main thread
 
-    std::vector<int> decision;
-    std::vector<int> tick;
-    std::vector<int> id;
+    //std::vector<int> decision;
+    //std::vector<int> tick;
+    //std::vector<int> id;
 
-    std::vector<double> pos;
+    //std::vector<double> pos;
 
-    std::atomic<int> currentDecision {-1};
+    //std::atomic<int> currentDecision {-1};
 
-    void saveCaptured();
+    //void saveCaptured();
 
-    void finishCapturing();
+    //void finishCapturing();
 
-    void startCapturing();
+    //void startCapturing();
 
 protected:
 

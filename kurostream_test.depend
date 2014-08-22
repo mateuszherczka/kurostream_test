@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1407767908 source:/home/mh/kurostream_dev/kurostream_test/src/HandlingServer.cpp
+1408717718 source:/home/mh/kurostream_dev/kurostream_test/src/HandlingServer.cpp
 	"HandlingServer.hpp"
 
-1407764125 /home/mh/kurostream_dev/kurostream_test/include/HandlingServer.hpp
+1408717813 /home/mh/kurostream_dev/kurostream_test/include/HandlingServer.hpp
 	<kuros.h>
 	<string>
 	<iostream>
@@ -82,8 +82,68 @@
 1407396404 /home/mh/dev/kuros/include/BlockingServer.hpp
 	<Server.hpp>
 
-1407770544 source:/home/mh/kurostream_dev/kurostream_test/src/streamtest_main.cpp
+1408718424 source:/home/mh/kurostream_dev/kurostream_test/src/streamtest_main.cpp
 	<iostream>
+	<thread>
 	<kuros.h>
 	<HandlingServer.hpp>
+
+1408439421 /home/mh/dev/kuros03/include/kuros.h
+	<kuros_constants.hpp>
+	<types.hpp>
+	<Server.hpp>
+	<BlockingServer.hpp>
+
+1408439511 /home/mh/dev/kuros03/include/kuros_constants.hpp
+
+1406206812 /home/mh/dev/kuros03/include/types.hpp
+	<vector>
+	<iostream>
+
+1408351005 /home/mh/dev/kuros03/include/Server.hpp
+	<iostream>
+	<istream>
+	<ostream>
+	<string>
+	<boost/asio.hpp>
+	<boost/thread.hpp>
+	<boost/atomic.hpp>
+	<boost/thread/mutex.hpp>
+	<boost/date_time/posix_time/posix_time.hpp>
+	<types.hpp>
+	<ThreadSafeQueue03.hpp>
+	<ServerConfig.hpp>
+	<KukaResponse.hpp>
+	<KukaCommand.hpp>
+
+1408351844 /home/mh/dev/kuros03/include/ThreadSafeQueue03.hpp
+	<queue>
+	<boost/thread/condition_variable.hpp>
+	<boost/thread/mutex.hpp>
+	<iostream>
+
+1408352115 /home/mh/dev/kuros03/include/ServerConfig.hpp
+	<XMLParser.hpp>
+
+1408351945 /home/mh/dev/kuros03/include/XMLParser.hpp
+	<boost/lexical_cast.hpp>
+	<boost/asio.hpp>
+	<tinyxml2.h>
+	<types.hpp>
+
+1408439788 /home/mh/dev/kuros03/include/KukaResponse.hpp
+	<vector>
+	<kuros_constants.hpp>
+	<XMLParser.hpp>
+	<boost/foreach.hpp>
+
+1408439848 /home/mh/dev/kuros03/include/KukaCommand.hpp
+	<types.hpp>
+	<kuros_constants.hpp>
+	<boost/asio.hpp>
+	<boost/lexical_cast.hpp>
+	<boost/foreach.hpp>
+
+1408352424 /home/mh/dev/kuros03/include/BlockingServer.hpp
+	<Server.hpp>
 
